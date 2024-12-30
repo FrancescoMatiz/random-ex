@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "iterations",
+            "type": "shell",
+            "command": "python iterations.py",
+            "args": [],
+            "group": "build",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "statusbar": {
+                    "color": "#06e25b",
+                    "label": "$(runtime-extensions-editor-label-icon) iterations"
+                },
+            },
+            "presentation": {
+                "clear": true
+            }
+        },
+    ]
+}
